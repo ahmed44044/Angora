@@ -1,0 +1,720 @@
+
+*
+{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    
+    
+}
+
+.home
+{
+    width: 100%;
+    height: 100vh;
+    
+}  
+.navbar
+{
+    
+    position: fixed;
+    left: 0;
+    right: 0;
+    z-index: 999999999999;
+    
+    
+}
+
+.nav-link
+{
+    transition: all 0.5s;
+}
+.nav-link:hover
+{
+    color: crimson !important;
+}
+.navbar-brand a
+{
+    color: crimson;
+}
+
+.navbar-nav li:hover
+{
+    color: crimson;
+}
+
+
+
+
+ .header-item
+{
+   
+   width:100%;
+   height: 100vh;
+    background-position: center center;
+    background-size: cover;
+    
+    background-image: url(img/slideshow-1.jpg);
+} 
+ .between-item
+  { 
+    width: 100%;
+   height: 100vh;
+    background-position: center center;
+    background-size: cover;
+    background-image: url(img/slideshow-2.jpg);
+} 
+ .end-item
+  { 
+    width: 100%;
+   height: 100vh;
+    background-position: center center;
+    background-size: cover;
+    background-image: url(img/slideshow-3.jpg);
+} 
+.header-button i
+{
+    width: 50px;
+    height: 32px;
+   background-color:transparent;
+   
+    left:0;
+    border: 1px #342e2e solid;
+    color: whitesmoke;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    transition: all 1s;
+}
+.header-button
+{
+    transition:all 2s 2s;
+}
+.header-button2
+{
+    transition: all 2s 2s;
+}
+.header-button2 i
+{
+    width: 50px;
+    height: 32px;
+   background-color:transparent;
+   border: 1px #342e2e solid;
+    left: 0;
+    color: whitesmoke;
+    top: 54% !important;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+.header-button i:hover {
+    background-color: aliceblue;
+    color: crimson;
+}
+.header-button2 i:hover {
+    background-color: aliceblue;
+    color: crimson;
+}
+/* .header-button
+{
+    border: 1px beige solid;
+    transition: all 0.5s;
+}
+.header-button:hover 
+{
+    color: crimson;
+    border: 1px crimson solid;
+} */
+.setting 
+{
+    width: 40px;
+    height: 40px;
+    position: fixed;
+    color: aliceblue;
+    background-color: black;
+    
+    left: 0;
+    
+    top: 20% !important;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+.carousel-control-prev span
+{
+    width: 50px;
+    height: 30px;
+    border: 1px solid crimson;
+    left: 0% !important;
+    top: 55% !important;
+    display: flex;
+    opacity: 0;
+    justify-content: center;
+    align-items: center;
+}
+.scrol
+{
+    position: absolute;
+    width:35px;
+    height: 30px;
+    bottom: 0;
+    left: 50%;
+    transform: translateX(-50%);
+    
+}
+
+.information-about
+{
+    position: relative;
+    
+    
+
+}
+.information h1
+{
+    font-size: 500%;
+    font-weight: 700;
+    opacity:0.2 ;
+    top: 0;
+    left: 48%;
+    position: absolute;
+
+
+    
+}
+.information h3
+{
+    font-size: 200%;
+    font-weight:500;
+    position: absolute;
+    top: 30px;
+    left: 46%;
+    text-align: center;
+    
+}
+.about
+{
+    width: 50%;
+
+    
+    margin: auto;
+    padding: 100px 0px;
+}
+.bdri
+{
+    width: 50px;
+
+    height: 1px;
+    background-color: black;
+    
+    margin: auto;
+    transition: all 1s;
+}
+.about:hover .bdri
+{
+    width: 70px;
+}
+.info
+{
+    width: 100%;
+     
+    display: flex;
+    flex-wrap: wrap;
+    justify-content:space-between;
+    padding: 20px 0px;
+}
+.progress
+{
+    height: 4px;
+}
+.Brand
+{
+    padding-right: 20%;
+}
+.Web 
+{
+    padding-right: 5%;
+}
+.Graphic
+{
+    padding-right: 15%;
+}
+.Development
+{
+    padding-right: 30%;
+}
+.team-about
+{
+    position: relative;
+    
+    
+
+}
+.team h1
+{
+    font-size: 500%;
+    font-weight: 700;
+    opacity:0.2 ;
+    top: 0;
+    left: 48%;
+    position: absolute;
+
+
+    
+}
+.team h3
+{
+    font-size: 200%;
+    font-weight:500;
+    position: absolute;
+    top: 30px;
+    left: 46%;
+    text-align: center;
+    
+}
+.about
+{
+    width: 50%;
+
+    
+    margin: auto;
+    padding: 100px 0px;
+}
+.bdri
+{
+    width: 50px;
+
+    height: 1px;
+    background-color:black;
+    
+    margin: auto;
+    transition: all 1s;
+}
+.about:hover .bdri
+{
+    width: 70px;
+}
+
+.team-item
+{
+    overflow: hidden;
+}
+.team-item img
+{
+    transition: all 1s;
+}
+.item-layer
+{
+    position: relative;
+    overflow: hidden;
+    
+}
+.layer
+{
+    position: absolute;
+    width: 100%;
+    height: 100%;
+    top: 0;
+    background-color: rgba(167, 65, 101, 0.5);
+    opacity: 0;
+    transition: all 1s;
+}
+.layer:hover
+{
+    opacity: 1;
+    
+}
+.team-item:hover .member h6
+{
+    color: crimson;
+}
+.team-item:hover img
+{
+    transform: scale(1.1);
+}
+.button-contact
+{
+    opacity: 1;
+    transition: all 1s;
+}
+.button-contact:hover
+{
+    opacity: 0.7;
+}
+
+.services-about
+{
+    position: relative;
+   
+
+}
+.services h1
+{
+    font-size: 500%;
+    font-weight: 700;
+    opacity:0.2 ;
+    top: 0;
+    left: 48%;
+    position: absolute;
+
+
+    
+}
+.services h3
+{
+    font-size: 200%;
+    font-weight:500;
+    position: absolute;
+    top: 30px;
+    left: 46%;
+    text-align: center;
+    
+}
+.about
+{
+    width: 50%;
+
+    
+    margin: auto;
+    padding: 100px 0px;
+}
+.bdri
+{
+    width: 50px;
+
+    height: 1px;
+    background-color: black;
+    
+    margin: auto;
+    transition: all 1s;
+}
+.about:hover .bdri
+{
+    width: 70px;
+}
+.inner h2{
+    transition: all 0.5s;
+    padding: 2px 0px;
+}
+.services-item:hover .inner h2{
+    color: crimson;
+}
+.inner p
+{
+    line-height: 24px;
+}
+.contact
+{
+ 
+   
+    
+
+}
+.contact-about
+{
+    position: relative;
+}
+.contact h1
+{
+    font-size: 500%;
+    font-weight: 700;
+    opacity:0.2 ;
+    top: 0;
+    left: 48%;
+    position: absolute;
+
+
+    
+}
+.contact h3
+{
+    font-size: 200%;
+    font-weight:500;
+    position: absolute;
+    top: 30px;
+    left: 45%;
+    text-align: center;
+    
+}
+.about
+{
+    width: 50%;
+
+    
+    margin: auto;
+    padding: 100px 0px;
+}
+.bdri
+{
+    width: 55px;
+
+    height: 1px;
+    background-color: black;
+    
+    margin: auto;
+    transition: all 1s;
+}
+.about:hover .bdri
+{
+    width: 70px;
+}
+.inner h2{
+    transition: all 0.5s;
+    padding: 2px 0px;
+}
+.contact-item:hover .inner h2{
+    color: crimson;
+}
+.inner a{
+    transition: all 1s;
+    padding: 2px 0px;
+}
+.contact-item:hover .inner a{
+    color: crimson;
+}
+.btn-primary
+{
+    opacity: 0.7;
+    border: #1a1a1a 1px solid !important;
+    transition: all 0.5s;
+}
+.btn-primary:hover
+{
+    opacity: 1;
+}
+.inner p
+{
+    line-height: 24px;
+}
+.text
+{
+     height: 100px;
+}
+
+
+.blog
+{
+    position: relative;
+   
+
+}
+.blog h1
+{
+    font-size: 500%;
+    font-weight: 700;
+    opacity:0.2 ;
+    top: 0;
+    left: 48%;
+    position: absolute;
+
+
+    
+}
+.blog h3
+{
+    font-size: 200%;
+    font-weight:500;
+    position: absolute;
+    top: 30px;
+    left: 45%;
+    text-align: center;
+    
+}
+.about
+{
+    width: 50%;
+
+    
+    margin: auto;
+    padding: 100px 0px;
+}
+.bdri
+{
+    width: 55px;
+
+    height: 1px;
+    background-color: black;
+    
+    margin: auto;
+    transition: all 1s;
+}
+.about:hover .bdri
+{
+    width: 70px;
+}
+.carousel-indicators
+{
+    height: 100px;
+    
+}
+.blog .carousel-indicators .button
+{
+   width: 100px;
+     height: 50px;
+    border-radius: 50%;
+    background-image: url(img/client-1.png);
+    background-position: center center;
+    background-size: cover;
+    
+}
+.blog .carousel-indicators .button-one
+{
+   width: 100px;
+     height: 50px;
+    border-radius: 50%;
+    background-image: url(img/client-2.png);
+    background-position: center center;
+    background-size: cover;
+    
+}
+.blog .carousel-indicators .button-two
+{
+   width: 100px;
+    height: 50px;
+    border-radius: 50%;
+    background-image: url(img/client-3.png);
+    background-position: center center;
+    background-size: cover;
+    
+}
+.blog .carousel-indicators .button-three
+{
+   width: 100px;
+     height: 50px;
+    border-radius: 50%;
+    background-image: url(img/client-4.png);
+    background-position: center center;
+    background-size: cover;
+    
+}
+.blog .carousel-indicators .button-four
+{
+   width: 100px;
+     height: 50px;
+    border-radius: 50%;
+    background-image: url(img/client-5.png);
+    background-position: center center;
+    background-size: cover;
+    
+}
+.blog .carousel-indicators .button-five
+{
+   width: 100px;
+     height: 50px;
+    border-radius: 50%;
+    background-image: url(img/client-6.png);
+    background-position: center center;
+    background-size: cover;
+    
+}
+.blog .carousel-indicators .button-six
+{
+   width: 100px;
+     height: 50px;
+    border-radius: 50%;
+    background-image: url(img/client-7.png);
+    background-position: center center;
+    background-size: cover;
+    
+}
+.blog .carousel-indicators .button-seven
+{
+    width: 100px;
+     height: 50px;
+    border-radius:50%;
+    background-image: url(img/client-8.png);
+    background-position: center center;
+    background-size: cover;
+    
+}
+.blog .carousel-indicators .button-eight
+{
+   width: 100px;
+     height: 50px;
+    border-radius: 50%;
+    background-image: url(img/client-9.png);
+    background-position: center center;
+    background-size: cover;
+    
+}
+.button-item
+{
+    position: relative;
+    transition: transform 1s;
+}
+.blog .carousel-indicators button.active{
+ transform: scale(1.1);
+ color: crimson;
+}
+
+.carousel
+{
+    padding: 10px;
+    width: 40%;
+}
+.foot
+{
+    background-image: url(img/footer.jpg);
+    
+}
+.foot-item p
+{
+    transition: all 0.5s;
+}
+.foot-item p:hover 
+{
+    color: crimson;
+}
+.foot button
+{
+    border: 1px beige solid;
+    transition: all 0.5s;
+}
+.foot button:hover 
+{
+    color: crimson !important;
+    border: 1px crimson solid;
+}
+.footer
+{
+    background-color: #1a1a1a;
+    padding: 30px 0px;
+}
+.footer-icons
+{
+    transition: all 1s;
+}
+.footer-icons:hover
+{
+    color: crimson;
+}
+.footer-text b
+{
+    transition: all 1s;
+}
+.footer-text b:hover
+{
+    color: crimson;
+}
+.page-end
+{
+    width: 50px;
+    height: 50px;
+    border-radius: 50%;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    margin: auto;
+    position: relative;
+    bottom: -25px;
+    opacity: 0.5;
+    color: aliceblue;
+    transition: all 1s;
+}
+.page-end:hover
+{
+    opacity: 1;
+}
+
+
+
